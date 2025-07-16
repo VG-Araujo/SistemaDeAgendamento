@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda de Tarefas - Cadastro</title>
+    <link rel="stylesheet" href="../style/CadastroFront.css" />
+  </head>
+  <body>
+    <div class="register-container">
+      <h1>Cadastro</h1>
+      <form id="formcadastro">
+        <input
+          type="text"
+          id="username"
+          placeholder="Nome de usuário"
+          required
+        />
+        <input type="text" id="name" placeholder="Nome completo" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Senha" required />
+        <button type="submit">Cadastrar</button>
+      </form>
+      <div class="login-link">
+        <p>Já tem uma conta? <a href="login.html">Entrar</a></p>
+      </div>
+      <p>Agenda de Tarefas © 2025</p>
+    </div>
+
+    <script src="../scripts/config.js"></script>
+    <script src="../scripts/cadastroFront.js"></script>
+  </body>
+</html>
