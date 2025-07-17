@@ -28,25 +28,6 @@ Sistema completo com **login, cadastro e gerenciamento de tarefas**, utilizando 
 
 ---
 
-## 🗂️ Estrutura de Pastas
-
-SistemaDeAgendamento
-├── backend
-│ ├── routers # Rotas da API (Login, Cadastro, Agendamento)
-│ ├── middleware # Middleware de verificação do token
-│ ├── db.js # Conexão com o banco de dados
-│ ├── server.js # Inicialização do servidor
-│ ├── .env # Variáveis de ambiente (não incluído no Git)
-│ ├── gerarSegredoJWT.js
-│ └── package.json
-│
-├── frontend
-│ ├── html # Páginas HTML (Login, Cadastro, Index)
-│ ├── scripts # Scripts JS do frontend
-│ └── styles # Estilos CSS das páginas
-
----
-
 ## ⚙️ Como rodar o projeto localmente
 
 ### 🔁 Pré-requisitos
